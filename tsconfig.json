@@ -29,25 +29,28 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@components/*": [
+      "@/*": [
+        "src/*"
+      ],
+      "@/components/*": [
         "src/components/*"
       ],
-      "@features/*": [
-        "src/features/*"
+      "@/icons/*": [
+        "src/icons/*"
       ],
-      "@models/*": [
+      "@/models/*": [
         "src/models/*"
       ],
-      "@pages/*": [
+      "@/pages/*": [
         "src/pages/*"
       ],
-      "@services/*": [
+      "@/services/*": [
         "src/services/*"
       ],
-      "@styles/*": [
+      "@/styles/*": [
         "src/styles/*"
       ],
-      "@test/*": [
+      "@/test/*": [
         "src/test/*"
       ]
     }
